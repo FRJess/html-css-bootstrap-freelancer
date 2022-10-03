@@ -1,10 +1,9 @@
 [class^="container"],[class^="col"]{
   background-color: rgba(255, 0, 0, 0.637);
   border: 1px solid black;
-  min-height: 80px;
   margin-bottom: 20px;
 }
 
-.jumbotron{
-  height: 590px;
+.jumbotron .col{
+  min-height: 480px;
 }
