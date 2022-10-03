@@ -2,6 +2,7 @@
   background-color: rgba(255, 0, 0, 0.637);
   border: 1px solid black;
   margin-bottom: 20px;
+  min-height: 80px;
 }
 
 .jumbotron .col{
