@@ -5,6 +5,15 @@
   min-height: 80px;
 }
 
-.jumbotron .col{
-  min-height: 480px;
+header{
+  height: 90px;
+}
+
+.jumbotron{
+  height: 490px;
+  background-color: aquamarine;
+}
+
+.form{
+  height: 490px;
 }
