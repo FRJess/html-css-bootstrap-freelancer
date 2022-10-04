@@ -2,11 +2,21 @@
   background-color:rgba(56, 114, 114, 0.5);
   border: 1px solid black;
   margin-bottom: 20px;
-  min-height: 80px;
+  min-height: 50px;
+}
+
+.jt-container{
+  width: 60%;
+  margin: 0 auto;
+}
+
+body{
+  color: white;
 }
 
 header{
   height: 90px;
+  background-color:aqua
 }
 
 .jumbotron{
