@@ -10,10 +10,6 @@
   margin: 0 auto;
 }
 
-/* body{
-  color: white;
-} */
-
 img{
   height: 250px;
 }
@@ -23,9 +19,10 @@ header{
   background-color:#2C3E50;
 }
 
-header.navbar{
+header .navbar ul li a, header .navbar .navbar-brand {
   color: white;
 }
+
 
 .jumbotron, #about{
   /* height: 490px; */
@@ -52,4 +49,28 @@ header.navbar{
 .jt-btn{
   background-color: #1ABC9C;
   color: white;
+}
+
+footer{
+  color: white;;
+}
+
+.footer-top{
+  background-color: #3A546D;
+}
+
+.footer-top h5{
+  text-transform: uppercase;
+}
+
+.footer-top span{
+  color: #1ABC9C
+}
+
+/* .footer-top .row .col{
+  width: 26rem;
+} */
+
+.footer-bottom{
+  background-color: #2C3E50;
 }
