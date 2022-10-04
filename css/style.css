@@ -1,27 +1,35 @@
-[class^="container"],[class^="col"]{
+/* [class^="container"],[class^="col"]{
   background-color:rgba(56, 114, 114, 0.5);
   border: 1px solid black;
   margin-bottom: 20px;
   min-height: 50px;
-}
+} */
 
 .jt-container{
   width: 60%;
   margin: 0 auto;
 }
 
-body{
+/* body{
   color: white;
+} */
+
+img{
+  height: 250px;
 }
 
 header{
-  height: 90px;
-  background-color:aqua
+  /* height: 90px; */
+  background-color:#2C3E50;
+}
+
+header.navbar{
+  color: white;
 }
 
 .jumbotron{
-  height: 490px;
-  background-color: aquamarine;
+  /* height: 490px; */
+  background-color: #1ABC9C;
 }
 
 .form{

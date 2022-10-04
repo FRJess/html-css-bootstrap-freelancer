@@ -12,33 +12,53 @@
 
 <body>
   <header>
-    <div class="container h-100 text-uppercase">
-      <div class="row h-100 align-items-center">
-        <div class="col-3 offset-md-2">Start bootstrap</div>
-        <div class="col-1 offset-8 d-md-none text-end">menu h</div>
-        <div class="col-3 d-none d-md-block offset-2 text-end">menu desk</div>
-      </div>
+    
+    <div class="container h-100 d-flex align-items-center">
+      <nav class="navbar navbar-expand-md w-100">
+        <div class="container-fluid text-uppercase">
+          <a class="navbar-brand em-link" href="#">Start Bootstrap</a>
+          <button class="navbar-toggler btn-close-white sc-hamburger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-uppercase">
+              
+              <li class="nav-item">
+                <a class="nav-link"  href="#">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </div>
+    
   </header>
 
-  <div class="jumbotron">
+  <div class="jumbotron text-light text-uppercase">
     <div class="container text-center">
       <div class="row justify-content-center">
-        <div class="col col-md-12"></div>
-        <div class="image">immagine</div>
-        <h1>Start Bootstrap</h1>
+        <div class="col m-5">
+          <img src="img/avatar.svg" alt="avatar">
+          <h1 class="m-3">Start Bootstrap</h1>
+        </div>
       </div>
     </div>
     <div class="container text-center">
       <div class="row">
         <div class="star">*</div>
-        <div class="text">Lorem ipsum dolor sit amet.</div>
+        <div class="text">Graphic artist - Web Designer - Illustrator</div>
       </div>
     </div>
   </div>
 
 
-  <section id="portfolio">
+  <!-- <section id="portfolio">
     <div class="container text-center">
       <div class="row">
         <h2>Portfolio</h2>
@@ -114,7 +134,7 @@
     <div class="container footer-bottom text-center">
       <div class="text">Lorem ipsum dolor sit amet.</div>
     </div>
-  </footer>
+  </footer> -->
   
 </body>
 </html>
