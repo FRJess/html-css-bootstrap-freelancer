@@ -35,3 +35,9 @@ header.navbar{
 .form{
   height: 490px;
 }
+
+.jt-line{
+  background-color: white;
+  height: 5px;
+  width: 10%;
+}
