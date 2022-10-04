@@ -1,32 +1,14 @@
-/* [class^="container"],[class^="col"]{
-  background-color:rgba(56, 114, 114, 0.5);
-  border: 1px solid black;
-  margin-bottom: 20px;
-  min-height: 50px;
-} */
-
-.jt-container{
-  width: 60%;
-  margin: 0 auto;
-}
+/* GENERAL */
 
 img{
   height: 250px;
 }
 
-header{
-  /* height: 90px; */
-  background-color:#2C3E50;
-}
+/* PERSONAL */
 
-header .navbar ul li a, header .navbar .navbar-brand {
-  color: white;
-}
-
-
-.jumbotron, #about{
-  /* height: 490px; */
-  background-color: #1ABC9C;
+.jt-container{
+  width: 60%;
+  margin: 0 auto;
 }
 
 .jt-form .form-control{
@@ -51,6 +33,28 @@ header .navbar ul li a, header .navbar .navbar-brand {
   color: white;
 }
 
+/* SITE SECTIONS */
+
+/* Header */
+
+header{
+  /* height: 90px; */
+  background-color:#2C3E50;
+}
+
+header .navbar ul li a, header .navbar .navbar-brand {
+  color: white;
+}
+
+/* Jumbotron - About*/
+
+.jumbotron, #about{
+  /* height: 490px; */
+  background-color: #1ABC9C;
+}
+
+/* Footer */
+
 footer{
   color: white;;
 }
@@ -66,10 +70,6 @@ footer{
 .footer-top span{
   color: #1ABC9C
 }
-
-/* .footer-top .row .col{
-  width: 26rem;
-} */
 
 .footer-bottom{
   background-color: #2C3E50;
