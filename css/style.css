@@ -27,7 +27,7 @@ header.navbar{
   color: white;
 }
 
-.jumbotron{
+.jumbotron, #about{
   /* height: 490px; */
   background-color: #1ABC9C;
 }
@@ -40,4 +40,8 @@ header.navbar{
   background-color: white;
   height: 5px;
   width: 10%;
+}
+
+.jt-line.black{
+  background-color: black;
 }
