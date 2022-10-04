@@ -53,6 +53,14 @@ header .navbar ul li a, header .navbar .navbar-brand {
   background-color: #1ABC9C;
 }
 
+/* Portfolio */
+
+#portfolio img:hover{
+  filter: brightness(50%);
+  cursor: pointer;
+
+}
+
 /* Footer */
 
 footer{
