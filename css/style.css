@@ -18,16 +18,6 @@ img{
   border-right: 0;
 }
 
-.jt-line{
-  background-color: white;
-  height: 4px;
-  width: 10%;
-}
-
-.jt-line.black{
-  background-color: black;
-}
-
 .jt-btn{
   background-color: #1ABC9C;
   color: white;
@@ -45,7 +35,7 @@ img{
 
 .jt-star{
   font-size: 30px;
-  margin: 0 2%;
+  margin: 0 auto;
   vertical-align: middle;
 }
 
@@ -91,10 +81,27 @@ header .navbar .navbar-brand{
 
 /* Portfolio */
 
-#portfolio img:hover{
-  filter: brightness(50%);
-  cursor: pointer;
+.jt-card{
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
 
+.jt-card .layover{
+  background-color:rgba(49, 168, 156, 0.569) ;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+.jt-card .bi-plus-lg{
+  color: white;
+  font-size: 5rem;
+}
+
+.jt-card:hover .layover{
+  display: flex;
 }
 
 /* Footer */
