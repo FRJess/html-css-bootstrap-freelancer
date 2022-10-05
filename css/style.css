@@ -38,12 +38,20 @@ img{
 /* Header */
 
 header{
-  /* height: 90px; */
   background-color:#2C3E50;
 }
 
-header .navbar ul li a, header .navbar .navbar-brand {
+header .navbar .nav-link, header .navbar .navbar-brand {
   color: white;
+}
+
+header .navbar .nav-link:hover{
+  color:#1ABC9C
+}
+
+header .navbar .navbar-brand{
+  font-size: 2rem;
+  font-weight: bold;
 }
 
 /* Jumbotron - About*/
