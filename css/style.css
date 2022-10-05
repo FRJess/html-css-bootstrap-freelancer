@@ -1,7 +1,7 @@
 /* GENERAL */
 
 img{
-  height: 250px;
+  max-width: 100%;
 }
 
 /* PERSONAL */
@@ -20,7 +20,7 @@ img{
 
 .jt-line{
   background-color: white;
-  height: 5px;
+  height: 4px;
   width: 10%;
 }
 
@@ -31,6 +31,31 @@ img{
 .jt-btn{
   background-color: #1ABC9C;
   color: white;
+}
+
+.dark h2, .dark .jt-star{
+  color: #2C3E50;
+}
+
+.dark .jt-star::before, .dark .jt-star:after{
+  background-color: #2C3E50;
+}
+
+/* STAR */
+
+.jt-star{
+  font-size: 30px;
+  margin: 0 2%;
+  vertical-align: middle;
+}
+
+.jt-star::before, .jt-star:after{
+  content: "";
+  display: inline-block;
+  width: 15%;
+  height: 4px;
+  background-color: white;
+  border-radius: 2px;
 }
 
 /* SITE SECTIONS */
@@ -54,11 +79,14 @@ header .navbar .navbar-brand{
   font-weight: bold;
 }
 
-/* Jumbotron - About*/
+/* Jumbotron*/
 
 .jumbotron, #about{
-  /* height: 490px; */
   background-color: #1ABC9C;
+}
+
+.avatar{
+  width: 250px;
 }
 
 /* Portfolio */
